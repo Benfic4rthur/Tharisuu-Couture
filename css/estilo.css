@@ -52,12 +52,15 @@ nav.navbar-transparente .navbar-toggler {
 .btn-roxo {
     background: #dfb305;
     border: 2px solid #dfb305;
+    color: black;
+    font-style: bold;
 }
 
 .btn-roxo:hover {
     background: #6207e3;
     border: 2px solid #7c26f8;
-    color: white;
+    color: black;
+    font-style: bold;
 }
 
 .btn-branco {
