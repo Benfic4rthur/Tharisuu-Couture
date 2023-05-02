@@ -9,6 +9,14 @@ body,
     overflow-x: hidden;
 }
 
+header::before {
+    content: "";
+    display: block;
+    height: 80px; /* altura do cabeçalho */
+    margin: -80px 0 0; /* compensa o tamanho do cabeçalho */
+}
+
+
 body {
     background: url("../imagens/capa2.jpg"),
         linear-gradient(50deg, #e4d4a0, #dfb305);
