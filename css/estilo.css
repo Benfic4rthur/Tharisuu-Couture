@@ -97,7 +97,12 @@ nav.navbar-transparente .navbar-toggler {
 h3 {
     color: #dfb305;
 }
-
+:servicos::before {
+    content: "";
+    display: block;
+    height: 80px; /* altura do cabeçalho */
+    margin: -80px 0 0; /* compensa o tamanho do cabeçalho */
+}
 #recursos h3 {
     color: #9bf0e1;
 }
