@@ -205,6 +205,12 @@ h3 {
     color: #dfb305;
     font-size: 2em;
 }
+#contato a:visited {
+    color: white
+}
+#contato a:hover {
+    color: #dfb305;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
