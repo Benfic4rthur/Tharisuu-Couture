@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Favicon -->
+
+    <!-- JS -->
+    <script src="./js/index.js"></script>
+
     <title>Tarisu Couture - Home</title>
 </head>
 
 <body>
     <header> <!-- inicio do cabeçalho -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente" id="cabeca">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
                     <img src="imagens/tarisu-blank.png" width="120">
@@ -38,7 +42,7 @@
                         </li>
                         <li class="nav-item divisor"></li>
                         <li class="nav-item">
-                            <a href="#servicos" class="nav-link">About Us</a>
+                            <a href="#sobre" class="nav-link" id="btn-sobre">About Us</a>
                         </li>
                         <li class="nav-item divisor"></li>
                         <li class="nav-item">
@@ -46,7 +50,7 @@
                         </li>
                         <li class="nav-item divisor"></li>
                         <li class="nav-item">
-                            <a href="#recursos" class="nav-link">Contact us</a>
+                            <a href="#contatos" class="nav-link">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -85,7 +89,8 @@
             </div>
         </div> <!-- fim container -->
     </section> <!-- fim da home -->
-    <section id="servicos" class="caixa"> <!-- inicio dos serviços -->
+    <section id="sobre"></section>
+    <section id="about" class="caixa"> <!-- inicio dos serviços -->
         <div class="container"> <!-- container -->
             <div class="row">
                 <div class="col-md-6">
@@ -109,7 +114,7 @@
                             <!--Colocar imagem de bordado aqui-->
                         </div>
                     </div>
-                </div>
+                </div><br><br>
                 <div class="col-md-6 mt-3">
                     <!--h2>Quem somos</h2>
                     <p>A Tarisu Couture é uma empresa de moda que se dedica a oferecer roupas elegantes e sofisticadas
@@ -123,6 +128,7 @@
                         por meio de suas roupas e se destacar em qualquer ocasião.
                     </p-->
                     <h2>About Us</h2>
+                    <br>
                     <p>Tarisu Couture is a fashion company that is dedicated to offering elegant and sophisticated
                         clothes for everyone looking for exclusive and high quality pieces. Always attentive to fashion
                         trends, Tarisu Couture creates embroideries that combine style, comfort and authenticity.
@@ -135,11 +141,12 @@
                 </div>
             </div> <!-- fim container -->
     </section> <!-- fim dos serviços -->
-    <section id="recursos" class="caixa">
+    <section id="contatos"></section>
+    <section id="contato" class="caixa">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Contact Us</h2>
+                <div class="col-md-4 mt-5">
+                    <h2 class="">Contact Us</h2>
                     <h3>E-mail</h3>
                     <p>email@email.teste.com</p>
                     <h3>Whatsapp</h3>
