@@ -32,7 +32,15 @@ nav.navbar-transparente .navbar-nav .nav-link {
 }
 
 nav.navbar-transparente .navbar-nav .nav-link:hover {
-    color: #9bf0e1;
+        /*margin-top: -3px;*/
+        margin-bottom: -3px;
+        color: #dfb305;
+        border-bottom: 3px solid #dfb305;
+        border-radius: 100px;
+        content: "";
+        transform: scaleX(1);
+        transition: transform .25s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav.navbar-transparente .navbar-toggler {
@@ -63,8 +71,8 @@ nav.navbar-transparente .navbar-toggler {
 }
 
 .btn-roxo:hover {
-    background: #6207e3;
-    border: 2px solid #7c26f8;
+    background: #dfb305;
+    border: 2px solid #e4d4a0;
     color: black;
     font-style: bold;
 }
@@ -116,7 +124,7 @@ h3 {
 }
 
 #contato h3 {
-    color: #9bf0e1;
+    color: #dfb305;
 }
 
 #contato h2 {
@@ -182,7 +190,7 @@ h3 {
     font-size: 1.6em;
 }
 #contato p:hover{
-    color: #9bf0e1;
+    color: #dfb305;
     font-size: 2em;
 }
 
@@ -247,7 +255,7 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-    color: #9bf0e1;
+    color: #dfb305;
     font-size: 0.8em;
     text-decoration: none;
 }
