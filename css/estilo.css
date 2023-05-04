@@ -106,7 +106,7 @@ nav.navbar-transparente .navbar-toggler {
 }
 
 #linguica {
-    height: 678px;
+    height: 727px;
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.0);
 }
@@ -205,9 +205,11 @@ h3 {
     color: #dfb305;
     font-size: 2em;
 }
+
 #contato a:visited {
     color: white
 }
+
 #contato a:hover {
     color: #dfb305;
 }
@@ -255,6 +257,13 @@ h3 {
     #contato p:hover {
         color: #dfb305;
         font-size: 1em;
+    }
+
+    #linguica {
+        height: 498px;
+        border: 10px solid;
+        margin-top: -6px;
+        border-color: rgba(0, 0, 0, 0.0);
     }
 }
 
@@ -305,6 +314,13 @@ h3 {
         color: #dfb305;
         font-size: 1em;
     }
+
+    #linguica {
+        height: 598px;
+        border: 1px solid;
+        margin-top: -1px;
+        border-color: rgba(0, 0, 0, 0.0);
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -347,6 +363,13 @@ h3 {
         color: #dfb305;
         font-size: 1em;
     }
+
+    #linguica {
+        height: 648px;
+        border: 1px solid;
+        margin-top: -20px;
+        border-color: rgba(0, 0, 0, 0.0);
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -374,6 +397,18 @@ h3 {
     #contato p:hover {
         color: #dfb305;
         font-size: 1em;
+    }
+
+    #home .container .row .capa #carousel-spotify .carousel-inner .carousel-item img {
+        width: 600px !important;
+        height: 600px !important;
+    }
+
+    #linguica {
+        height: 648px;
+        border: 1px solid;
+        margin-top: 30px;
+        border-color: rgba(0, 0, 0, 0.0);
     }
 }
 
