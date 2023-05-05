@@ -141,7 +141,6 @@ h3 {
     font-size: 1em;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.8);
-    ;
     border-radius: 20px;
     padding: 10px;
 }
@@ -321,6 +320,37 @@ h3 {
         height: 350px !important;
         margin-left: 75px;
     }
+
+    #about p {
+        color: #ccc;
+        font-size: 0.7em;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    #about p:hover {
+        color: #dfb305;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        border-radius: 20px;
+        padding: 6px;
+        transition: .3s;
+    }
+
+    #p1 {
+        width: 430px;
+    }
+
+    #p2 {
+        width: 430px;
+    }
+
+    #about {
+        height: auto;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -400,6 +430,37 @@ h3 {
         position: relative;
         z-index: 1;
     }
+
+    #about p {
+        color: #ccc;
+        font-size: 0.9em;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    #about p:hover {
+        color: #dfb305;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        border-radius: 20px;
+        padding: 6px;
+        transition: .3s;
+    }
+
+    #p1 {
+        width: 530px;
+    }
+
+    #p2 {
+        width: 530px;
+    }
+
+    #about {
+        height: auto;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -469,6 +530,37 @@ h3 {
         position: relative;
         z-index: 1;
     }
+
+    #about p {
+        color: #ccc;
+        font-size: 0.9em;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    #about p:hover {
+        color: #dfb305;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        border-radius: 20px;
+        padding: 6px;
+        transition: .3s;
+    }
+
+    #p1 {
+        width: 410px;
+    }
+
+    #p2 {
+        width: 410px;
+    }
+
+    #about {
+        height: auto;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -524,6 +616,37 @@ h3 {
         cursor: pointer !important;
         position: relative;
         z-index: 1;
+    }
+
+    #about p {
+        color: #ccc;
+        font-size: 0.9em;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    #about p:hover {
+        color: #dfb305;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        border-radius: 20px;
+        padding: 6px;
+        transition: .3s;
+    }
+
+    #p1 {
+        width: 500px;
+    }
+
+    #p2 {
+        width: 500px;
+    }
+
+    #about {
+        height: auto;
     }
 }
 
