@@ -351,6 +351,17 @@ h3 {
     #about {
         height: auto;
     }
+
+    #imagemModalImg {
+        max-height: calc(100vh - 50px);
+        display: block;
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 200px;
+    }
+    img#imagemModalImg {
+        margin-top: 200px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
