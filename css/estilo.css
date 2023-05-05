@@ -582,6 +582,11 @@ footer ul li {
 }
 
 #images img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#images img:hover {
     z-index: 2;
 }
 
