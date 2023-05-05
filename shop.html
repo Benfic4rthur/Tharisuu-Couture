@@ -17,6 +17,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!-- JS -->
+    <script src="./js/modal.js"></script>
+
     <!-- Favicon -->
     <title>Tarisu Couture - SHOP</title>
 </head>
@@ -50,101 +53,96 @@
                             background-color: rgba(0, 0, 0, 0.2);
                             border-radius: 100px; margin-top: -3px;">Shop</a>
                         </li>
-                    </ul>                        
+                    </ul>
                 </div>
             </div>
         </nav>
     </header> <!-- fim do cabeçalho -->
-    <section id="home" class="d-flex mt-5"> <!-- inicio da home -->
-        <div class="container align-self-center"> <!-- container -->
-            <div class="row">
-                <div class="col-md-12 capa mt-5">
-                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                        <!-- data-ride="carousel" para iniciar automaticamente -->
-                        <div class="carousel-inner"> <!-- carousel-inner para definir o conteúdo do slider -->
-                            <div class="carousel-item active">
-                                <img src="./imagens/img1.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class="btn disabled btn-lg btn-custom btn-roxo">One Piece</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img2.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class="btn disabled btn-lg btn-custom btn-roxo">Demon Slayer</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img3.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class="btn disabled btn-lg btn-custom btn-roxo">Naruto</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img4.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class="btn disabled btn-lg btn-custom btn-roxo">Berserk</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img5.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class="btn disabled btn-lg btn-custom btn-roxo">One PIECE</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img6.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class=" btn disabled btn-lg btn-custom btn-roxo">Demon Slayer</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img7.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class=" btn disabled btn-lg btn-custom btn-roxo">Jujutsu Kaisen</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img8.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class=" btn disabled btn-lg btn-custom btn-roxo">My hero Academy</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img9.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class=" btn disabled btn-lg btn-custom btn-roxo">Dragon Ball Super</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./imagens/img10.jpg"
-                                    style="width:550px; height: 650px; border-radius: 50px;"><br><br>
-                                <a href="" class=" btn disabled btn-lg btn-custom btn-roxo">Demon Slayer</a>
-                                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo">Compre Aqui
-                                    / Buy Here</a>
-                            </div>
-                        </div> <!-- fim carousel-inner -->
-                        <!-- controles -->
-                        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
-                            <i class="fas fa-angle-left fa-3x"></i>
-                        </a>
-                        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
-                            <i class="fas fa-angle-right fa-3x"></i>
-                        </a>
-                    </div> <!-- fim carousel -->
+    <!-- Modal -->
+    <div class="modal fade" id="imagemModal" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
                 </div>
+                <div class="modal-body">
+                    <img src="" id="imagemModalImg" class="img-fluid">
+                </div>
+                <a href="https://wa.me/+19549136808" class="btn btn-lg btn-custom btn-roxo" style="width: 300px; margin-left: 70px; margin-top: -56px; z-index: 2;">Compre Aqui / Buy
+                    Here</a>
             </div>
-        </div> <!-- fim container -->
-        <div><a href="shop2.html"> <i class="fas fa-3x fa-image" style="margin-top: 795px; margin-left: -50px; color:#dfb305;" title="Clique para abrir no modo galeria"></i></a></div>
+        </div>
+    </div>
+    <section id="home" class="d-flex mt-5 col-md-12"> <!-- inicio da home -->
+        <div class="container-lateral mt-4"> <!-- container -->
+            <div class="row mt-5" id="images">
+                <div class="col-md-4">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <img src="imagens/img1.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img1.jpg')"> <!-- imagem 1 -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img2.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img2.jpg')"> <!-- imagem 2 -->
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <img src="imagens/img3.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img3.jpg')"> <!-- imagem 3 -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img4.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img4.jpg')"> <!-- imagem 4 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <img src="imagens/img5.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img5.jpg')"> <!-- imagem 5 -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img6.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img6.jpg')"> <!-- imagem 6 -->
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <img src="imagens/img7.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img7.jpg')"> <!-- imagem 7 -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img8.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img8.jpg')"> <!-- imagem 8 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <img src="imagens/img9.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img9.jpg')"> <!-- imagem 9 -->
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <img src="imagens/img10.jpg" class="img-fluid d-none d-sm-block"
+                                onclick="abrirModal('imagens/img10.jpg')"> <!-- imagem 10 -->
+                        </div>
+                    </div>
+                </div> <!-- fim da coluna 4 -->
+            </div> <!-- fim da row -->
+            <!--div>
+                <a href="shop.html">
+                    <i class="fas fa-3x fa-image" style="margin-top: -5px; margin-left:1730px; color:#dfb305;"
+                        title="Clique para abrir o slideshow"></i>
+                </a>
+            </div-->
+
     </section> <!-- fim da home -->
     <footer>
         <div class="container">

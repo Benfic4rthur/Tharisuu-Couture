@@ -15,6 +15,11 @@ header #cabeca {
     height: 150px;
 }
 
+header img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
 body {
     background: url("../imagens/capa2.jpg"),
         linear-gradient(50deg, #e4d4a0, #dfb305);
@@ -74,8 +79,8 @@ nav.navbar-transparente .navbar-toggler {
 }
 
 .btn-roxo:hover {
-    background: #dfb305;
-    border: 2px solid #e4d4a0;
+    background: #e4d4a0;
+    border: 2px solid #dfb305;
     color: black;
     font-style: bold;
 }
@@ -106,7 +111,7 @@ nav.navbar-transparente .navbar-toggler {
 }
 
 #linguica {
-    height: 727px;
+    height: 724px;
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.0);
 }
@@ -121,7 +126,9 @@ nav.navbar-transparente .navbar-toggler {
 }
 
 #about {
-    background: #f5f5f5;
+    background: url("../imagens/capa3.jpg"),
+        linear-gradient(50deg, #e4d4a0, #dfb305);
+    height: 780px;
 }
 
 #about h2,
@@ -130,7 +137,43 @@ h3 {
 }
 
 #about p {
-    font-size: 0.9em;
+    color: #ccc;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#about p:hover {
+    color: #dfb305;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    border-radius: 20px;
+    padding: 8px;
+    transition: .3s;
+}
+
+#about img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#about img:hover {
+    transform: scale(1.15);
+    transition: .2s;
+    border-radius: 10px;
+}
+
+#p1 {
+    width: 700px;
+}
+
+#p2 {
+    width: 700px;
 }
 
 #contato h3 {
@@ -148,6 +191,12 @@ h3 {
 .rotacionar {
     transform: rotate(30deg);
     padding-left: 80px;
+}
+
+.rotacionar:hover {
+    transform: rotate(390deg);
+    padding-left: 80px;
+    transition: .5s;
 }
 
 .icons {
@@ -453,6 +502,13 @@ h3 {
         border-radius: 25px;
         margin-left: -50px;
     }
+
+    #home .container .row .capa #carousel-spotify .carousel-inner .carousel-item img:hover {
+        transform: scale(1.03);
+        transition: .1s;
+        margin-top: 10px;
+        border-radius: 15px !important;
+    }
 }
 
 /*rodapé*/
@@ -494,7 +550,8 @@ footer ul li {
 }
 
 #contatos {
-    background-color: #f5f5f5;
+    background: url("../imagens/capa4.jpg"),
+        linear-gradient(50deg, #e4d4a0, #ccc);
     height: 150px;
 }
 
@@ -509,7 +566,7 @@ footer ul li {
 }
 
 #images {
-    position: relative;   
+    position: relative;
     width: 100%;
 }
 
@@ -583,4 +640,9 @@ footer ul li {
 
 #icon {
     cursor: pointer !important;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+    transition: .3s;
 }
