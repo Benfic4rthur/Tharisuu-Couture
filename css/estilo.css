@@ -317,7 +317,9 @@ h3 {
 
     #images img {
         border-radius: 25px;
-        margin-left: 15px;
+        width: 250px !important;
+        height: 400px !important;
+        margin-left: 150px;
     }
 }
 
@@ -387,6 +389,17 @@ h3 {
         border-radius: 25px;
         margin-left: -50px;
     }
+
+    #images img {
+        border-radius: 25px;
+        margin-left: 200px;
+        margin-bottom: -10px;
+        width: 100%;
+        height: auto;
+        cursor: pointer !important;
+        position: relative;
+        z-index: 1;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -445,6 +458,17 @@ h3 {
         border-radius: 25px;
         margin-left: -150px;
     }
+
+    #images img {
+        border-radius: 25px;
+        margin-left: 200px;
+        margin-bottom: -10px;
+        width: 100%;
+        height: auto;
+        cursor: pointer !important;
+        position: relative;
+        z-index: 1;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -490,6 +514,17 @@ h3 {
         border-radius: 25px;
         margin-left: -125px;
     }
+
+    #images img {
+        border-radius: 25px;
+        margin-left: 200px;
+        margin-bottom: -10px;
+        width: 100%;
+        height: auto;
+        cursor: pointer !important;
+        position: relative;
+        z-index: 1;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -508,6 +543,17 @@ h3 {
         transition: .1s;
         margin-top: 10px;
         border-radius: 15px !important;
+    }
+
+    #images img {
+        border-radius: 25px;
+        margin-left: 200px;
+        margin-bottom: -10px;
+        width: 100%;
+        height: auto;
+        cursor: pointer !important;
+        position: relative;
+        z-index: 1;
     }
 }
 
@@ -570,16 +616,6 @@ footer ul li {
     width: 100%;
 }
 
-#images img {
-    border-radius: 25px;
-    margin-left: 200px;
-    margin-bottom: -10px;
-    width: 100%;
-    height: auto;
-    cursor: pointer !important;
-    position: relative;
-    z-index: 1;
-}
 
 #images img:hover {
     transform: scale(1.1);
