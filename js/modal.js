@@ -8,3 +8,4 @@ const hoverSound = document.getElementById("hover-sound");
 navLink.addEventListener("mouseover", function () {
   hoverSound.play();
 });
+

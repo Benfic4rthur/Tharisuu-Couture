@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Favicon -->
-
+    <script>
+        var audio = document.getElementById("hover-sound");
+        audio.addEventListener("loadedmetadata", function () {
+            audio.volume = 0.3; // Define o volume inicial para 30%
+        });
+    </script>
     <title>Tarisu Couture - About Us</title>
 </head>
 
@@ -216,6 +221,11 @@
                 </div>
             </div>
         </div>
+        <audio id="hover-sound" controls autoplay style="height: 10px;">
+            <source src="imagens/audio/nani.mp3" type="audio/mpeg">
+            <source src="imagens/audio/nani.ogg" type="audio/mpeg">
+            <source src="imagens/audio/nani.wav" type="audio/mpeg">
+        </audio>
     </footer>
 
     <!-- JavaScript (Opcional) -->
