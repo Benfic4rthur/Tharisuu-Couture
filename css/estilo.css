@@ -280,7 +280,7 @@ h3 {
 
     #home .container .row .capa #carousel-spotify .carousel-inner .carousel-item img {
         width: 350px !important;
-        height: 400px !important;
+        height: 500px !important;
     }
 
     #contato h2 {
@@ -308,9 +308,7 @@ h3 {
     }
 
     #linguica {
-        height: 498px;
-        border: 10px solid;
-        margin-top: -6px;
+        height: 524px;
         border-color: rgba(0, 0, 0, 0.0);
     }
 
@@ -414,8 +412,8 @@ h3 {
     }
 
     #linguica {
-        height: 598px;
-        border: 1px solid;
+        height: 525px;
+        border: 10px solid;
         margin-top: -1px;
         border-color: rgba(0, 0, 0, 0.0);
     }
@@ -517,8 +515,8 @@ h3 {
     }
 
     #linguica {
-        height: 648px;
-        border: 1px solid;
+        height: 595px;
+        border: 10px solid;
         margin-top: -20px;
         border-color: rgba(0, 0, 0, 0.0);
     }
@@ -608,8 +606,8 @@ h3 {
     }
 
     #linguica {
-        height: 648px;
-        border: 1px solid;
+        height: 595px;
+        border: 10px solid;
         margin-top: 30px;
         border-color: rgba(0, 0, 0, 0.0);
     }
