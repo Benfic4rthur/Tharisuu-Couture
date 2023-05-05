@@ -265,6 +265,11 @@ h3 {
         margin-top: -6px;
         border-color: rgba(0, 0, 0, 0.0);
     }
+
+    #images img {
+        border-radius: 25px;
+        margin-left: 15px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -321,6 +326,18 @@ h3 {
         margin-top: -1px;
         border-color: rgba(0, 0, 0, 0.0);
     }
+
+    #images img {
+        border-radius: 25px;
+        width: 350px !important;
+        height: 500px !important;
+        margin-bottom: 10px;
+    }
+
+    #images {
+        border-radius: 25px;
+        margin-left: -50px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -370,6 +387,15 @@ h3 {
         margin-top: -20px;
         border-color: rgba(0, 0, 0, 0.0);
     }
+
+    #images img {
+        border-radius: 25px;
+    }
+
+    #images {
+        border-radius: 25px;
+        margin-left: -150px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -410,12 +436,22 @@ h3 {
         margin-top: 30px;
         border-color: rgba(0, 0, 0, 0.0);
     }
+
+    #images {
+        border-radius: 25px;
+        margin-left: -125px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     h1 {
         font-size: 6em;
+    }
+
+    #images {
+        border-radius: 25px;
+        margin-left: -50px;
     }
 }
 
@@ -464,4 +500,87 @@ footer ul li {
 
 #fundo {
     background-color: #f5f5f5;
+}
+
+.container-lateral {
+    /*deixando a div no centro da pagina*/
+    align-items: center;
+    justify-content: center;
+}
+
+#images {
+    position: relative;   
+    width: 100%;
+}
+
+#images img {
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-bottom: -10px;
+    width: 100%;
+    height: auto;
+    cursor: pointer !important;
+    position: relative;
+    z-index: 1;
+}
+
+#images img:hover {
+    z-index: 2;
+}
+
+/*modal*/
+#imagemModal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#imagemModalImg {
+    max-height: calc(100vh - 50px);
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*#modal-fechar {
+    color: #fff;
+    position: relative;
+    top: 40px;
+    right: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+
+#modal-fechar:hover,
+#modal-fechar:focus {
+    color: #ccc;
+    text-decoration: none;
+    outline: none;
+}
+
+.modal-content {
+    margin-top: -40px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-body {
+    text-align: center;
+    padding: 0;
+}
+
+#icon {
+    cursor: pointer !important;
 }
