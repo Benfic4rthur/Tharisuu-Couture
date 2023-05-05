@@ -781,15 +781,15 @@ footer ul li {
     padding: 0px;
 }
 
-/*#modal-fechar {
+#modal-fechar {
     color: #fff;
     position: relative;
-    top: 40px;
-    right: 30px;
-    font-size: 50px;
+    top: 10px;
+    right: 0px;
+    font-size: 0px;
     font-weight: bold;
     cursor: pointer;
-}*/
+}
 
 #modal-fechar:hover,
 #modal-fechar:focus {
@@ -799,7 +799,7 @@ footer ul li {
 }
 
 .modal-content {
-    margin-top: -40px;
+    margin-top: -33px;
     background-color: transparent;
     border: none;
     box-shadow: none;
