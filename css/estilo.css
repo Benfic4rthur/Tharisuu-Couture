@@ -201,6 +201,7 @@ h3 {
     transform: rotate(390deg);
     padding-left: 80px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .icons {
