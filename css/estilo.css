@@ -162,9 +162,10 @@ h3 {
 }
 
 #about img:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     transition: .2s;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #p1 {
@@ -325,7 +326,7 @@ h3 {
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 20px;
-        padding: 3px;
+        padding: 8px;
     }
 
     #about p:hover {
@@ -334,7 +335,7 @@ h3 {
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 1;
         border-radius: 20px;
-        padding: 6px;
+        padding: 12px;
         transition: .3s;
     }
 
@@ -447,7 +448,7 @@ h3 {
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 20px;
-        padding: 3px;
+        padding: 8px;
     }
 
     #about p:hover {
@@ -456,7 +457,7 @@ h3 {
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 1;
         border-radius: 20px;
-        padding: 6px;
+        padding: 12px;
         transition: .3s;
     }
 
@@ -547,7 +548,7 @@ h3 {
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 20px;
-        padding: 3px;
+        padding: 8px;
     }
 
     #about p:hover {
@@ -556,7 +557,7 @@ h3 {
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 1;
         border-radius: 20px;
-        padding: 6px;
+        padding: 12px;
         transition: .3s;
     }
 
@@ -634,7 +635,7 @@ h3 {
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 20px;
-        padding: 3px;
+        padding: 8px;
     }
 
     #about p:hover {
@@ -643,7 +644,7 @@ h3 {
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 1;
         border-radius: 20px;
-        padding: 6px;
+        padding: 12px;
         transition: .3s;
     }
 
@@ -676,6 +677,7 @@ h3 {
         transition: .1s;
         margin-top: 10px;
         border-radius: 15px !important;
+        cursor: pointer;
     }
 
     #images img {
@@ -747,16 +749,19 @@ footer ul li {
 #images {
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 
 #images img:hover {
     transform: scale(1.1);
     transition: .3s;
+    cursor: pointer;
 }
 
 #images img:hover {
     z-index: 2;
+
 }
 
 /*modal*/
