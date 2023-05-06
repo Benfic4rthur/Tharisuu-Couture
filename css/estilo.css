@@ -156,16 +156,20 @@ h3 {
 }
 
 #about img {
+    position: relative;
     width: 100%;
+    cursor: pointer;
     height: 100%;
     border-radius: 5px;
 }
 
+
 #about img:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
     transition: .2s;
-    border-radius: 10px;
     cursor: pointer;
+    border-radius: 10px;
+    z-index: 2;
 }
 
 #p1 {
@@ -757,12 +761,12 @@ footer ul li {
     transform: scale(1.1);
     transition: .3s;
     cursor: pointer;
-}
-
-#images img:hover {
     z-index: 2;
-
 }
+
+/*#images img:hover {
+    z-index: 2;
+}*/
 
 /*modal*/
 #imagemModal {
